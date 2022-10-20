@@ -67,7 +67,6 @@ const App = () => {
         
         <div>
             {value}
-
             <Button2 handleClick={()=>setToValue(1000) } text ="thousand"/>
             <Button2 handleClick={()=>setToValue(0)} text ="reset"/>
             <Button2 handleClick={()=>setToValue(value + 1)} text ="increment"/>
