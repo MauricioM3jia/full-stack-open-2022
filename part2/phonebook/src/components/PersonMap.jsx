@@ -1,6 +1,6 @@
-const PersonMap = ({name,number}) => 
+const PersonMap = ({name,number}) =>  
 <div>
-<h2 >{name} {number} </h2> 
+<h2 key={name} >{name} {number} </h2> 
 </div>
 
     
